@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 70" width="220" height="46">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8e2a5" />
+      <stop offset="100%" stop-color="#c8a95e" />
+    </linearGradient>
+  </defs>
+
+  <!-- Camera Aperture Crest -->
+  <g transform="translate(10, 8)">
+    <circle cx="26" cy="26" r="24" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" opacity="0.85" />
+    <circle cx="26" cy="26" r="18" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.6" />
+    <circle cx="26" cy="26" r="8" fill="url(#goldGrad)" />
+    <!-- Aperture blades -->
+    <path d="M 26 8 L 36 22 L 32 30 Z" fill="#ffffff" opacity="0.4" />
+    <path d="M 44 26 L 30 36 L 22 32 Z" fill="#ffffff" opacity="0.4" />
+    <path d="M 26 44 L 16 30 L 20 22 Z" fill="#ffffff" opacity="0.4" />
+    <path d="M 8 26 L 22 16 L 30 20 Z" fill="#ffffff" opacity="0.4" />
+  </g>
+
+  <!-- Typography: PERFECT STUDIO -->
+  <text x="68" y="34" font-family="'Cormorant Garamond', 'Playfair Display', Georgia, serif" font-size="28" font-weight="700" letter-spacing="4" fill="#ffffff">
+    PERFECT
+  </text>
+  <text x="68" y="55" font-family="'Open Sans', sans-serif" font-size="11" font-weight="600" letter-spacing="6" fill="url(#goldGrad)">
+    STUDIO
+  </text>
+  <text x="146" y="55" font-family="'Open Sans', sans-serif" font-size="9" font-weight="400" letter-spacing="1.5" fill="#a8a39d">
+    · CHENNAI 1962
+  </text>
+</svg>

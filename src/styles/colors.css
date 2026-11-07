@@ -1,0 +1,45 @@
+/* ==========================================================================
+   Perfect Studio - Colors
+   ========================================================================== */
+
+:root {
+  --color-ink: #111111;
+  --color-muted: #6f6a66;
+  --color-paper: #fffdfb;
+  --color-soft: #f7f3ef;
+  --color-cream: #fffdf8;
+  --color-dark: #030303;
+  --color-darker: #020202;
+  --color-black-tint: #110201;
+
+  /* Studio Heritage Burgundy */
+  --color-burgundy: #690000;
+  --color-burgundy-deep: #470000;
+  --color-burgundy-hover: #7b0303;
+  --color-burgundy-light: #ac0000;
+  --color-burgundy-strip: #8b0000;
+
+  /* Warm Gold & Sand Accents */
+  --color-gold: #c8a95e;
+  --color-gold-light: #f8e2a5;
+  --color-gold-pale: #ffe4b8;
+  --color-gold-border: rgba(200, 169, 94, 0.44);
+
+  /* Functional */
+  --color-whatsapp: #07b550;
+  --color-whatsapp-hover: #0bd260;
+  --color-border: #ded8d1;
+  --color-border-light: rgba(255, 255, 255, 0.15);
+  
+  /* Gradients */
+  --stats-gradient: linear-gradient(90deg, #300000 0%, #560000 50%, #300000 100%);
+  --instagram-gradient: linear-gradient(135deg, #833ab4 0%, #c13584 24%, #e1306c 46%, #f77737 74%, #fcaf45 100%);
+  --facebook-gradient: linear-gradient(135deg, #1877f2 0%, #0f5fce 52%, #063d93 100%);
+  --youtube-gradient: linear-gradient(135deg, #ff0000 0%, #d90000 52%, #8d0000 100%);
+  --call-gradient: linear-gradient(135deg, #8a0000 0%, #690000 52%, #450000 100%);
+  --whatsapp-gradient: linear-gradient(135deg, #44f665 0%, #2fd84f 52%, #1ca935 100%);
+  
+  /* Layout & Timing */
+  --container-pad: 45px;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}

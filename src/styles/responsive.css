@@ -1,0 +1,253 @@
+/* ==========================================================================
+   Perfect Studio - Responsive Styles
+   ========================================================================== */
+
+@media (max-width: 1200px) {
+  :root {
+    --container-pad: 32px;
+  }
+
+  .service-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-main-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 48px;
+  }
+}
+
+@media (max-width: 991px) {
+  :root {
+    --container-pad: 24px;
+  }
+
+  .nav-toggle {
+    display: flex;
+  }
+
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 82%;
+    max-width: 380px;
+    height: 100vh;
+    background: rgba(8, 5, 5, 0.98);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 95px 32px 40px;
+    gap: 18px;
+    overflow-y: auto;
+    box-shadow: -10px 0 40px rgba(0, 0, 0, 0.6);
+    transform: translateX(100%);
+    transition: transform 0.4s var(--ease);
+    z-index: 150;
+    backdrop-filter: blur(16px);
+  }
+
+  .nav-menu.open {
+    transform: translateX(0);
+  }
+
+  .nav-menu .nav-link {
+    font-size: 1.1rem;
+    padding: 6px 0;
+    width: 100%;
+  }
+
+  .nav-dropdown {
+    width: 100%;
+  }
+
+  .nav-dropdown-menu {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: none;
+    box-shadow: none;
+    background: rgba(255, 255, 255, 0.04);
+    padding: 8px 12px;
+    margin-top: 8px;
+    border: none;
+  }
+
+  .nav-dropdown-menu a {
+    padding: 8px 10px;
+    font-size: 0.95rem;
+  }
+
+  .nav-menu .nav-cta {
+    width: 100%;
+    margin-top: 14px;
+    text-align: center;
+  }
+
+  /* Stats grid on tablet */
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px 0;
+  }
+
+  .stats-grid div:nth-child(2) {
+    border-right: none;
+  }
+
+  .stats-grid div {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    padding-bottom: 20px;
+  }
+
+  .stats-grid div:nth-child(3),
+  .stats-grid div:nth-child(4) {
+    border-bottom: none;
+  }
+
+  /* Gallery grid */
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .portrait-strip {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .vision-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Testimonials */
+  .intro-row {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .testimonial-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .quote-logo {
+    margin: 0 auto 28px;
+  }
+
+  .testimonial-nav {
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  /* CTA */
+  .cta-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .cta-image {
+    max-width: 520px;
+    margin: 0 auto;
+  }
+
+  .cta-content {
+    text-align: center;
+  }
+
+  .cta-actions {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --container-pad: 20px;
+  }
+
+  .hero {
+    min-height: 720px;
+  }
+
+  .hero-content {
+    padding-top: 120px;
+    padding-bottom: 50px;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .vision-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .portrait-strip {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-item.span-2 {
+    grid-column: span 1;
+  }
+
+  .footer-main-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .footer-bottom {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 16px;
+  }
+
+  .footer-social {
+    justify-content: center;
+  }
+
+  .footer-bottom p {
+    text-align: center;
+  }
+
+  .footer-location-row {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+  }
+
+  .footer-location-row a {
+    justify-content: center;
+  }
+
+  /* Floating social rail on small screens */
+  .floating-social-rail {
+    right: 12px;
+    gap: 8px;
+  }
+
+  .floating-social-item {
+    width: 36px;
+    height: 36px;
+  }
+
+  .floating-social-item img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .floating-social-item::after {
+    display: none;
+  }
+}
