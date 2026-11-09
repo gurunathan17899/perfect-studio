@@ -22,7 +22,7 @@ export default function Contact() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <p className="eyebrow line-label" style={{ color: "var(--color-gold)" }}>WALK IN ANYTIME · CHENNAI</p>
+            <p className="eyebrow line-label" style={{ color: "var(--color-gold)" }}>WALK IN ANYTIME · Parangipettai</p>
             <h1 style={{ color: "#ffffff", maxWidth: "860px", margin: "16px auto", fontSize: "clamp(2.4rem, 4vw, 3.8rem)" }}>
               Connect with Perfect Studio
             </h1>
@@ -56,10 +56,10 @@ export default function Contact() {
                 <span style={{ fontSize: "0.85rem", fontWeight: 700, letterSpacing: "0.08em", textTransform: "uppercase" }}>Primary Studio</span>
               </div>
               <h2 style={{ fontSize: "1.85rem", color: "var(--color-ink)", marginBottom: "16px" }}>
-                Anna Nagar Studio
+                Perfect Studio
               </h2>
               <p style={{ color: "#555", fontSize: "0.98rem", lineHeight: "1.75", marginBottom: "24px" }}>
-                {STUDIO_INFO.locations.annaNagar.address}
+                {STUDIO_INFO.locations.Parangipettai.address}
               </p>
 
               <div style={{ display: "grid", gap: "14px", borderTop: "1px solid #f0eae4", paddingTop: "20px", marginBottom: "26px" }}>
@@ -85,10 +85,10 @@ export default function Contact() {
                   className="btn btn-brand"
                   style={{ minWidth: "140px", padding: "12px 20px" }}
                 >
-                  Call Anna Nagar
+                  Call Parangipettai <Phone size={14} style={{ marginLeft: 6 }} />
                 </a>
                 <a
-                  href={STUDIO_INFO.locations.annaNagar.mapLink}
+                  href={STUDIO_INFO.locations.Parangipettai.mapLink}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-outline-brand"
@@ -99,67 +99,7 @@ export default function Contact() {
               </div>
             </motion.div>
 
-            {/* Mogappair Card */}
-            <motion.div
-              style={{
-                background: "#ffffff",
-                border: "1px solid #ded8d1",
-                padding: "38px 32px",
-                borderTop: "4px solid var(--color-gold)",
-                boxShadow: "0 10px 30px rgba(0,0,0,0.04)"
-              }}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.1, duration: 0.5 }}
-            >
-              <div style={{ display: "flex", alignItems: "center", gap: "10px", color: "var(--color-burgundy)", marginBottom: "14px" }}>
-                <MapPin size={24} />
-                <span style={{ fontSize: "0.85rem", fontWeight: 700, letterSpacing: "0.08em", textTransform: "uppercase" }}>Branch Studio</span>
-              </div>
-              <h2 style={{ fontSize: "1.85rem", color: "var(--color-ink)", marginBottom: "16px" }}>
-                Mogappair Studio
-              </h2>
-              <p style={{ color: "#555", fontSize: "0.98rem", lineHeight: "1.75", marginBottom: "24px" }}>
-                {STUDIO_INFO.locations.mogappair.address}
-              </p>
-
-              <div style={{ display: "grid", gap: "14px", borderTop: "1px solid #f0eae4", paddingTop: "20px", marginBottom: "26px" }}>
-                <div style={{ display: "flex", alignItems: "center", gap: "12px", color: "#333", fontSize: "0.95rem" }}>
-                  <Phone size={17} color="var(--color-burgundy)" />
-                  <a href={`tel:${STUDIO_INFO.phoneMogappairRaw}`} style={{ fontWeight: 600 }}>
-                    {STUDIO_INFO.phoneMogappair}
-                  </a>
-                </div>
-                <div style={{ display: "flex", alignItems: "center", gap: "12px", color: "#666", fontSize: "0.92rem" }}>
-                  <Clock size={17} color="var(--color-gold)" />
-                  <span>{STUDIO_INFO.hoursWeekday}</span>
-                </div>
-                <div style={{ display: "flex", alignItems: "center", gap: "12px", color: "#666", fontSize: "0.92rem" }}>
-                  <Clock size={17} color="var(--color-gold)" />
-                  <span>{STUDIO_INFO.hoursSunday}</span>
-                </div>
-              </div>
-
-              <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
-                <a
-                  href={`tel:${STUDIO_INFO.phoneMogappairRaw}`}
-                  className="btn btn-brand"
-                  style={{ minWidth: "140px", padding: "12px 20px" }}
-                >
-                  Call Mogappair
-                </a>
-                <a
-                  href={STUDIO_INFO.locations.mogappair.mapLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-outline-brand"
-                  style={{ minWidth: "140px", padding: "12px 20px" }}
-                >
-                  Google Maps <ExternalLink size={14} style={{ marginLeft: 6 }} />
-                </a>
-              </div>
-            </motion.div>
+          
           </div>
 
           {/* Quick Contact Banner (Email & WhatsApp) */}

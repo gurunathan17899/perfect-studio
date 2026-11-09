@@ -62,7 +62,7 @@ export default function ServiceDetailTemplate({ service, onOpenBooking }) {
             <div>
               <span className="section-kicker">Our Approach</span>
               <h2 style={{ fontSize: "2.6rem", color: "var(--color-burgundy)", marginBottom: "22px", lineHeight: "1.2" }}>
-                Authentic Visual Storytelling Since 1962
+                Authentic Visual Storytelling Since 2021
               </h2>
               <p style={{ color: "#555", fontSize: "1.05rem", lineHeight: "1.85", marginBottom: "20px" }}>
                 {service.shortDesc}
@@ -101,7 +101,7 @@ export default function ServiceDetailTemplate({ service, onOpenBooking }) {
                   <Star size={28} color="var(--color-gold)" style={{ marginBottom: 12 }} />
                   <h4 style={{ fontSize: "1.15rem", marginBottom: "8px" }}>In-House Lab Grading</h4>
                   <p style={{ color: "#666", fontSize: "0.92rem", lineHeight: "1.6" }}>
-                    Manual retouching, natural skin tones, and museum-grade archival albums crafted right in Chennai.
+                    Manual retouching, natural skin tones, and museum-grade archival albums crafted right in Parangipettai.
                   </p>
                 </div>
               </div>

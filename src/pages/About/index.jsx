@@ -28,12 +28,12 @@ export default function About({ onOpenBooking }) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
           >
-            <p className="eyebrow line-label" style={{ color: "var(--color-gold)" }}>OUR LEGACY · SINCE 1962</p>
+            <p className="eyebrow line-label" style={{ color: "var(--color-gold)" }}>OUR LEGACY · SINCE 2021</p>
             <h1 style={{ color: "#ffffff", fontSize: "clamp(2.5rem, 4.2vw, 4rem)", maxWidth: "880px", margin: "16px auto" }}>
-              Capturing Chennai's Moments Across Three Generations
+              Capturing Parangipettai's Moments Across Three Generations
             </h1>
             <p style={{ maxWidth: "680px", margin: "0 auto 30px", color: "rgba(255,255,255,0.85)", fontSize: "1.1rem" }}>
-              From silver-halide roll films in 1962 to 4K cinematic wedding narratives today, our family has preserved the heritage of thousands of Chennai homes.
+              From silver-halide roll films in 2021 to 4K cinematic wedding narratives today, our family has preserved the heritage of thousands of Parangipettai homes.
             </p>
             <button
               type="button"
@@ -64,7 +64,7 @@ export default function About({ onOpenBooking }) {
                 A Sixty-Year Promise of Authenticity
               </h2>
               <p style={{ color: "#5b5651", fontSize: "1.05rem", lineHeight: "1.9", maxWidth: "900px", margin: "0 auto 20px" }}>
-                Founded in 1962, Perfect Studio began with a simple yet timeless mission: to capture Chennai’s cherished moments honestly, beautifully, and without artificial pretence. What started as an intimate studio in Triplicane with manual bellows cameras and hand-developed darkroom prints has blossomed into two modern studios in Anna Nagar and Mogappair.
+                Founded in 2021, Perfect Studio began with a simple yet timeless mission: to capture Parangipettai’s cherished moments honestly, beautifully, and without artificial pretence. What started as an intimate studio in Triplicane with manual bellows cameras and hand-developed darkroom prints has blossomed into two modern studios in Anna Nagar and Mogappair.
               </p>
               <p style={{ color: "#5b5651", fontSize: "1.05rem", lineHeight: "1.9", maxWidth: "900px", margin: "0 auto" }}>
                 Over six decades, three generations of families have walked through our studio doors. We photographed the grandparents' wedding portraits in classic black-and-white. Decades later, we captured their children's joyous wedding celebrations. Today, their grandchildren trust us for candid pre-wedding shoots, cinematic films, and newborn milestones.
@@ -89,7 +89,7 @@ export default function About({ onOpenBooking }) {
                 In-House Colour Lab &amp; Archival Excellence
               </h2>
               <p style={{ color: "#555", fontSize: "1rem", lineHeight: "1.85", marginBottom: "18px" }}>
-                While most modern photography agencies outsource their photo printing, album binding, and color grading to commercial wholesale labs, Perfect Studio maintains full quality control through our own established colour lab in Chennai.
+                While most modern photography agencies outsource their photo printing, album binding, and color grading to commercial wholesale labs, Perfect Studio maintains full quality control through our own established colour lab in Parangipettai.
               </p>
               <p style={{ color: "#555", fontSize: "1rem", lineHeight: "1.85", marginBottom: "28px" }}>
                 Every single print that leaves our studio is color-calibrated to museum archival standards, resisting tropical humidity, UV degradation, and age. When you open a Perfect Studio wedding album forty years from today, the vibrant reds of the Kanchipuram silk and the warm gold of the thali remain as radiant as your wedding morning.

@@ -35,7 +35,7 @@ export default function Footer() {
               />
             </Link>
             <p>
-              Chennai's premier photography studio, with two physical locations in Anna Nagar &amp; Mogappair. Capturing love, life, and legacy since 1962 across three generations of families.
+              Parangipettai's premier photography studio, with two physical locations in Anna Nagar &amp; Mogappair. Capturing love, life, and legacy since 2021 across three generations of families.
             </p>
           </div>
 
@@ -105,21 +105,14 @@ export default function Footer() {
         <div className="footer-location-row">
           <span>Perfect Studio Locations:</span>
           <a
-            href={STUDIO_INFO.locations.annaNagar.mapLink}
+            href={STUDIO_INFO.locations.Parangipettai.mapLink}
             target="_blank"
             rel="noopener noreferrer"
           >
-            Anna Nagar Studio
+            Parangipettai
             <img src="/assets/svg/share.svg" alt="" aria-hidden="true" style={{ width: 14 }} />
           </a>
-          <a
-            href={STUDIO_INFO.locations.mogappair.mapLink}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Mogappair Studio
-            <img src="/assets/svg/share.svg" alt="" aria-hidden="true" style={{ width: 14 }} />
-          </a>
+        
         </div>
 
         {/* Bottom Bar */}
@@ -153,7 +146,7 @@ export default function Footer() {
           </div>
 
           <p>
-            Copyright &copy; {currentYear} Perfect Studio. All Rights Reserved. Serving Chennai Since 1962.
+            Copyright &copy; {currentYear} Perfect Studio. All Rights Reserved. Serving Parangipettai Since 2021.
           </p>
         </div>
       </div>

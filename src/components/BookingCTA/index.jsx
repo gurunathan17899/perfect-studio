@@ -17,7 +17,7 @@ export default function BookingCTA({ onOpenBooking }) {
           >
             <img
               src="/assets/img/cta-bg.png"
-              alt="Professional photography session at Perfect Studio Chennai"
+              alt="Professional photography session at Perfect Studio Parangipettai"
             />
           </motion.div>
 
@@ -32,7 +32,7 @@ export default function BookingCTA({ onOpenBooking }) {
               Ready to Capture Your Story with Perfect Studio?
             </h2>
             <p>
-              No commitment, No pressure. Just an honest conversation about your wedding, your family, or your story — with the studio Chennai has trusted since 1962.
+              No commitment, No pressure. Just an honest conversation about your wedding, your family, or your story — with the studio Parangipettai has trusted since 2021.
             </p>
             <div className="cta-actions">
               <button

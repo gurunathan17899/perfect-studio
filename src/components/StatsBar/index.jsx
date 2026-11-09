@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function StatsBar() {
   const stats = [
-    { number: "1962", label: "We Picked Up Our First Camera" },
+    { number: "2021", label: "We Picked Up Our First Camera" },
     { number: "3 Gen", label: "Same Families, Still Choosing Us" },
     { number: "1,034+", label: "Families Who Trusted Us" },
     { number: "2", label: "Studios You Can Walk Into" }

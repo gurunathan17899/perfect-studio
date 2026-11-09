@@ -47,7 +47,7 @@ export default function BookingModal({ isOpen, onClose }) {
         <div className="modal-header">
           <div>
             <span style={{ fontSize: "0.82rem", textTransform: "uppercase", letterSpacing: "0.1em", color: "var(--color-gold)", fontWeight: 700 }}>
-              Perfect Studio · Chennai
+              Perfect Studio · Parangipettai
             </span>
             <h3>Book Your Photography Session</h3>
           </div>
@@ -177,8 +177,7 @@ export default function BookingModal({ isOpen, onClose }) {
                     {...register("location", { required: "Please select a preferred studio location" })}
                   >
                     <option value="">Select Location</option>
-                    <option value="Anna Nagar Studio">Anna Nagar Studio</option>
-                    <option value="Mogappair Studio">Mogappair Studio</option>
+                    <option value="Parangipettai Studio">Parangipettai Studio</option>                    
                     <option value="On-Location / Wedding Venue">On-Location / Wedding Venue</option>
                   </select>
                   {errors.location && <div className="form-error">{errors.location.message}</div>}

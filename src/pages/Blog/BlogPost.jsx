@@ -82,7 +82,7 @@ export default function BlogPost({ onOpenBooking }) {
         <div style={{ marginTop: "60px", padding: "34px", background: "#fbf9f6", border: "1px solid #ede8e3", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "20px" }}>
           <div>
             <h4 style={{ fontSize: "1.3rem", color: "var(--color-burgundy)", marginBottom: "6px" }}>
-              Planning a Wedding or Shoot in Chennai?
+              Planning a Wedding or Shoot in Parangipettai?
             </h4>
             <p style={{ color: "#666", fontSize: "0.95rem" }}>
               Our senior team is available for phone consultations and studio walkthroughs.

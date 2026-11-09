@@ -39,7 +39,7 @@ export default function Blog({ onOpenBooking }) {
               The Perfect Studio Journal
             </h1>
             <p style={{ maxWidth: "680px", margin: "0 auto 30px", color: "rgba(255,255,255,0.85)", fontSize: "1.1rem" }}>
-              Expert guides on Chennai weddings, photography tips for couples, trends, and heirloom preservation from our six-decade legacy.
+              Expert guides on Parangipettai weddings, photography tips for couples, trends, and heirloom preservation from our six-decade legacy.
             </p>
           </motion.div>
         </div>

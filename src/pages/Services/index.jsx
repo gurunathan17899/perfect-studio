@@ -28,7 +28,7 @@ export default function Services({ onOpenBooking }) {
               Comprehensive Photography &amp; Cinematography Services
             </h1>
             <p style={{ maxWidth: "700px", margin: "0 auto 30px", color: "rgba(255,255,255,0.85)", fontSize: "1.1rem" }}>
-              Tailored visual storytelling for family milestones, grand weddings, candid moments, and brand events across Chennai and South India.
+              Tailored visual storytelling for family milestones, grand weddings, candid moments, and brand events across Parangipettai and South India.
             </p>
             <button
               type="button"

@@ -26,7 +26,7 @@ export default function WhyChooseUs() {
     {
       icon: "/assets/svg/client-first-approach.svg",
       title: "Client-First Approach",
-      description: "We listen before we shoot, collaborate through every step, and go above and beyond when it counts. A standard families across Chennai have trusted since 1962."
+      description: "We listen before we shoot, collaborate through every step, and go above and beyond when it counts. A standard families across Parangipettai have trusted since 2021."
     }
   ];
 

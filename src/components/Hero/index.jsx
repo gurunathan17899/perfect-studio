@@ -24,7 +24,7 @@ export default function Hero({ onOpenBooking }) {
       <div className="hero-media" aria-hidden="true">
         <img
           src="/assets/img/banner1.png"
-          alt="Perfect Studio photography studio in Anna Nagar and Mogappair Chennai since 1962"
+          alt="Perfect Studio photography studio in Anna Nagar and Mogappair Parangipettai since 2021"
           fetchPriority="high"
         />
       </div>
@@ -36,14 +36,14 @@ export default function Hero({ onOpenBooking }) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, ease: [0.2, 0.7, 0.2, 1] }}
         >
-          <p className="eyebrow line-label">SINCE. 1962 · CHENNAI</p>
+          <p className="eyebrow line-label">SINCE. 2021 · Parangipettai</p>
           <h1 id="hero-title">
             <span className="hyellow">Six Decades of Legacy.</span><br />
             <span className="hyellow">Three Generations.</span><br />
             One Trusted Name.
           </h1>
           <p className="hero-copy">
-            64 years of capturing Chennai's most cherished moments — candidly, cinematically, and with heart.
+            5 years of capturing Parangipettai's most cherished moments — candidly, cinematically, and with heart.
           </p>
           <div className="hero-actions" aria-label="Hero actions">
             <button

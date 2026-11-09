@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 
 export default function PortraitSection() {
   const portraits = [
-    { src: "/assets/img/portraits-01.png", alt: "Professional portrait photography for women in Chennai" },
+    { src: "/assets/img/portraits-01.png", alt: "Professional portrait photography for women in Parangipettai" },
     { src: "/assets/img/portraits-02.png", alt: "Studio portrait photography by Perfect Studio" },
-    { src: "/assets/img/portraits-03.png", alt: "Family portrait session at Perfect Studio Chennai" },
-    { src: "/assets/img/portraits-04.png", alt: "Creative portrait photography in Anna Nagar Chennai" }
+    { src: "/assets/img/portraits-03.png", alt: "Family portrait session at Perfect Studio Parangipettai" },
+    { src: "/assets/img/portraits-04.png", alt: "Creative portrait photography in Anna Nagar Parangipettai" }
   ];
 
   return (

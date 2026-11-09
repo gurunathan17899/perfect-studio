@@ -28,7 +28,7 @@ export default function Testimonials() {
           </div>
           <div>
             <p>
-              Hear from the families and couples who have trusted Perfect Studio with their most cherished moments. 1,034+ reviews on Justdial &amp; Google. Serving Chennai since 1962.
+              Hear from the families and couples who have trusted Perfect Studio with their most cherished moments. 1,034+ reviews on Justdial &amp; Google. Serving Parangipettai since 2021.
             </p>
           </div>
         </div>

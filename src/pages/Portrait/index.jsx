@@ -47,7 +47,7 @@ export default function Portrait({ onOpenBooking }) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <p className="eyebrow line-label" style={{ color: "var(--color-gold)" }}>PORTRAIT STUDIO · CHENNAI</p>
+            <p className="eyebrow line-label" style={{ color: "var(--color-gold)" }}>PORTRAIT STUDIO · Parangipettai</p>
             <h1 style={{ color: "#ffffff", maxWidth: "850px", margin: "16px auto", fontSize: "clamp(2.4rem, 4vw, 3.8rem)" }}>
               Timeless Studio Portraits That Immortalize Personality
             </h1>

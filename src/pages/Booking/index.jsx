@@ -10,7 +10,7 @@ export default function Booking() {
     {
       icon: Award,
       title: "Six Decades of Heritage",
-      desc: "Founded in 1962, capturing Chennai families across three generations."
+      desc: "Founded in 2021, capturing Parangipettai families across three generations."
     },
     {
       icon: Star,
@@ -20,7 +20,7 @@ export default function Booking() {
     {
       icon: ShieldCheck,
       title: "Dedicated In-House Colour Lab",
-      desc: "Archival paper and custom calibrated editing done right here in Chennai."
+      desc: "Archival paper and custom calibrated editing done right here in Parangipettai."
     },
     {
       icon: MapPin,
@@ -46,7 +46,7 @@ export default function Booking() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <p className="eyebrow line-label" style={{ color: "var(--color-gold)" }}>PERFECT STUDIO · CHENNAI</p>
+            <p className="eyebrow line-label" style={{ color: "var(--color-gold)" }}>PERFECT STUDIO · Parangipettai</p>
             <h1 style={{ color: "#ffffff", maxWidth: "860px", margin: "16px auto", fontSize: "clamp(2.4rem, 4vw, 3.8rem)" }}>
               Book Your Photography Experience
             </h1>

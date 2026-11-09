@@ -16,7 +16,7 @@ export default function ServicesSection() {
             transition={{ duration: 0.6 }}
           >
             <p className="section-kicker">What we offer</p>
-            <h2 id="services-title">Photography Services in Chennai</h2>
+            <h2 id="services-title">Photography Services in Parangipettai</h2>
           </motion.div>
 
           <div className="service-grid">

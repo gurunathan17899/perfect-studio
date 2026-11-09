@@ -106,7 +106,7 @@ export default function BookingForm({ defaultService = "" }) {
             id="bf-phone"
             type="tel"
             className="form-control"
-            placeholder="+91 98411 76798"
+            placeholder="+91 82489 61595"
             {...register("phone", {
               required: "Phone number is required",
               pattern: {
@@ -171,10 +171,9 @@ export default function BookingForm({ defaultService = "" }) {
             {...register("studioLocation", { required: "Please select a studio location" })}
           >
             <option value="">Select Location</option>
-            <option value="Anna Nagar Studio">Anna Nagar Studio (3rd Main Rd)</option>
-            <option value="Mogappair Studio">Mogappair Studio</option>
+            <option value="Parangipettai Studio">Parangipettai Studio</option>            
             <option value="Wedding Mandapam / Venue">Wedding Mandapam / Venue</option>
-            <option value="Destination Shoot">Destination Shoot Outside Chennai</option>
+            <option value="Destination Shoot">Destination Shoot Outside Parangipettai</option>
           </select>
           {errors.studioLocation && <div className="form-error">{errors.studioLocation.message}</div>}
         </div>
